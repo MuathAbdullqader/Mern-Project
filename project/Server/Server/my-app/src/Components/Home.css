@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+
+body{
+    background: 
+    linear-gradient(45deg, #80FFDB, #5390D9);
+}
+
+.TasksB h1{
+    color: #0a73dc;
+    text-align: center;
+    height: 200px;
+  }
+  
+  .TasksB button  {
+      background-color: #4b5f69;
+      color: #e9ecef;
+      font-size: 1em;
+      cursor: pointer;
+  
+    }
+
+    .TasksB :hover button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+    }
+    
